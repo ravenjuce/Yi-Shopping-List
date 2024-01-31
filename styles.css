@@ -1,0 +1,76 @@
+html body {
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+    color: #a3652c;
+    font-family: 'Dancing Script', cursive;
+    font-size: 17px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    /* most of the screen r ok */
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+input {
+    color: #a3652c;
+    background-color: #fff4b98c;
+    border: 0;
+    font-size: 17px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+button {
+    color: #fff4b9;
+    background-color: #ffb7be;
+    border: 0;
+    border-radius: 8px;
+    font-size: 22px;
+    padding: 8px;
+    margin: 10px 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 1px 4px #82828282
+}
+
+button:hover {
+    background-color: #ff5c6d;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    /* 让内容物自动适应窗口排列 */
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {  
+    color: #a3652c;
+    font-family: 'Dancing Script', cursive;
+    font-size: 17px;
+    background-color: #ffdad220;
+    padding: 10px;
+    border-radius: 5px;
+    /* 让内容物间距自动适应填满一个空间 */
+    flex-grow: 1;
+    text-align: center;
+}
+
+ul li:hover {
+    background-color: #d3d3d330;
+    cursor: pointer;
+}
